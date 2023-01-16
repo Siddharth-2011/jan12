@@ -1,0 +1,15 @@
+//reversing a string
+#include<iostream>
+#include<string.h>
+#include  <bits/stdc++.h>
+using namespace std;
+int main()
+{	
+	string ch;
+	cout<<"enter string\n";
+	getline(cin,ch);
+	string st = ch;
+	reverse(st.begin(),st.end());
+	cout<<"the reverse of the string is\n "<<st<<endl;
+		
+}
